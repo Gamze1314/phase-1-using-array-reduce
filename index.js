@@ -1,3 +1,6 @@
-const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
+let batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 
-// Code your solution here
+
+
+let totalBatteries = batteryBatches.reduce((acc, value) => acc + value, 0);
+console.log(totalBatteries);
